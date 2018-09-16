@@ -114,19 +114,19 @@ namespace GradeBook.GradeBooks
             {
                 case 'A':
                     gpa=4;
-                    return;
+                    break;
                 case 'B':
                      gpa=3;
-                    return;
+                    break;
                 case 'C':
                     gpa=2;
-                    return;
+                    break;
                 case 'D':
                     gpa=1;
-                    return;
+                    break;
                 case 'F':
                     gpa=0;
-                    return;
+                    break;
             }
 
             if(IsWeighted && (studentType==StudentType.Honors || studentType==StudentType.DualEnrolled))
