@@ -48,7 +48,7 @@ namespace GradeBook.UserInterfaces
                 gradeBook = new BaseGradeBook(name);
             else
             {
-                Console.WriteLine("Created gradebook {0}.", name);
+                Console.WriteLine("{0} is not a sported type of gradebook, please try again.", type);
                 return;
             }
             Console.WriteLine("Created gradebook {0}.", name);
